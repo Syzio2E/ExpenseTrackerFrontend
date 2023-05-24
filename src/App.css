@@ -13,6 +13,12 @@
   }
 }
 
+h1{
+  background-color: skyblue;
+  height: 55px;
+  width: 100%;
+}
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;

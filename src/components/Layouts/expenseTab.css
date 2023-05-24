@@ -1,0 +1,63 @@
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  text-align: center;
+  padding: 8px;
+}
+
+thead th {
+  background-color: #f2f2f2;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+tbody tr:hover {
+  background-color: #ddd;
+}
+
+button[type="delete"] {
+  background-color: #ff0000;
+  color: #fff;
+  border: none;
+  padding: 6px 12px;
+  cursor: pointer;
+}
+.pagination {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.pagination select {
+  margin: 0 5px;
+}
+
+.pagination-buttons {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.pagination-buttons button {
+  margin: 0 5px;
+  padding: 5px 10px;
+  border: 1px solid #ccc;
+  background-color: #f0f0f0;
+  color: #333;
+  cursor: pointer;
+}
+
+.pagination-buttons button.active {
+  background-color: #333;
+  color: #fff;
+}
+
+.pagination-buttons button:hover {
+  background-color: #ddd;
+}
